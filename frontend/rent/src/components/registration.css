@@ -1,0 +1,110 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.registration-form div {
+  margin-bottom: 10px;
+}
+
+.registration-form label {
+  display: inline-block;
+  width: 170px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="date"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.registration-form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+.registration-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.registration-form .signin {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registration-form .signin a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.registration-form .signin a:hover {
+  text-decoration: underline;
+}
+
+.registration-form .error,
+.registration-form .success {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.registration-form .error {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.registration-form .success {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.signin button {
+  width: 80px;
+  font-size: small;
+}
+
+.signin button {
+  width: 70px;
+  font-size: small;
+  color: #4CAF50;
+}
+
+.signin button:hover {
+  background-color: #ccc;
+}

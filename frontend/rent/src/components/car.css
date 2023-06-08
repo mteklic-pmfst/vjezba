@@ -1,0 +1,58 @@
+h1 {
+    font-size: 20px;
+}
+
+.btnD {
+    background-color: grey;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.small {
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+    margin: 4px;
+}
+
+.bs {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.buttoncl {
+    display: flex;
+}
+
+.btn0 {
+    background-color: #4CAF50 ;
+    border-radius: 3px;
+    margin: 3px;
+    color: white;
+}
+
+.btn0:hover{
+    background-color: #333;
+}
+
+.dizajn{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dotted gray;
+    border-radius: 100px;
+    padding: 6px;
+    margin: 7px;
+    margin-left: 270px;
+    margin-bottom: 30px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+

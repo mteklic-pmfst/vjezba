@@ -1,0 +1,129 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding: 0;
+}
+
+
+.nav-item.active .nav-link {
+  font-weight: normal;
+}
+
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color:#4CAF50;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown .btn:hover {
+  background-color: #e9ecef;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  z-index: 1;
+  padding: 8px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: fit-content;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown.show .dropdown-menu {
+  display: block;
+}
+
+
+
+
+/* Register */
+.registration {
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 9px;
+}
+
+/* Login  */
+.login {
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #4CAF50;
+}
+
